@@ -1,6 +1,8 @@
 use std::io;
+mod hellworld;
 
 fn main() {
+    // hellworld.
     println!("请猜下这个数字吧");
     let mut guess_str = String::new();
     io::stdin()
